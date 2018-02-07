@@ -1,0 +1,21 @@
+{
+  "name": "ui-code-test",
+  "version": "1.0.0",
+  "description": "Deepfield UI Code Test",
+  "main": "index.js",
+  "author": "Eric Krawczyk",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server/index.js --ignore dist/ --ignore public/",
+    "watch": "parcel watch public/index.html --public-url /"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.14.11",
+    "parcel-bundler": "^1.5.1"
+  }
+}
