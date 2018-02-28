@@ -19,6 +19,7 @@ For this challenge you will be creating an apartment finder app that consumes a 
 - You are encouraged to use ES6+ JavaScript. Babel is included in this project, and can be used with `yarn watch`.
 - You may use jQuery or other dependencies, but please include an explanation of new dependencies in your PR.
 - You do not need to edit any files in the `/server` folder, but it's not off limits.
+- While results should be presented logically and cleanly, we will not be evaluating your design skills or asthetic choices.
 
 ### Environment
 - `yarn start`
