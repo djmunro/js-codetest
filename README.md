@@ -22,6 +22,8 @@ For this challenge you will be creating an apartment finder app that consumes a 
 - While results should be presented logically and cleanly, we will not be evaluating your design skills or asthetic choices.
 
 ### Environment
+- `yarn install`
+    - installs the dependencies.  This must be done once before running start or watch
 - `yarn start`
     - Starts the development server. This will serve the contents of the `/dist` directory on http://localhost:3000 and allow you to access api routes at http://localhost:3000/api/{path} and images at http://localhost:3000/img/{path}.
 - `yarn watch`
