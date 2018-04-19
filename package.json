@@ -7,8 +7,9 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "start": "nodemon server/index.js --ignore dist/ --ignore public/",
-    "watch": "parcel watch public/index.html --public-url /"
+    "start": "yarn build && nodemon server/index.js --ignore dist/ --ignore public/",
+    "watch": "parcel watch public/index.html --public-url /",
+    "build": "parcel build public/index.html --public-url /"
   },
   "dependencies": {
     "express": "^4.16.2"
