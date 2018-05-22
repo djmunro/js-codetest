@@ -23,11 +23,13 @@ For this challenge you will be creating an apartment finder app that consumes a 
 
 ### Environment
 - `yarn install`
-    - installs the dependencies.  This must be done once before running start or watch
-- `yarn start`
-    - Starts the development server. This will serve the contents of the `/dist` directory on http://localhost:3000 and allow you to access api routes at http://localhost:3000/api/{path} and images at http://localhost:3000/img/{path}.
+    - Installs the dependencies.  This must be done once before running build, watch, or start
+- `yarn build`
+    - Builds and bundles the contents of the `/public` folder into the `/dist` folder
 - `yarn watch`
-    - Builds and bundles the contents of the `/public` folder into the `/dist` folder and watches for changes
+    - Runs build and watches for changes to automatically trigger builds (e.g. during active development)
+- `yarn start`
+    - Runs build and starts the development server. This will serve the contents of the `/dist` directory on http://localhost:3000 and allow you to access api routes at http://localhost:3000/api/{path} and images at http://localhost:3000/img/{path}.
 
 ### Specifications
 - Read the [API Documentation](#api-documentation) section to learn about the apartment listing API
