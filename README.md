@@ -60,16 +60,16 @@ For this challenge you will be creating an apartment finder app that consumes a 
 | `price` | | Maximum price  |
 
 ##### Response
-| Property | Type |
-|-|-|
-| `bedrooms` | `Number` |
-| `price` | `Number` |
-| `bathrooms` | `Number` |
-| `address` | `String` |
-| `city` | `String` |
-| `state` | `String` |
-| `building_name` | `String` |
-| `image_id` | `Number` |
+| Property | Type | Required |
+|-|-|-|
+| `bedrooms` | `Number` | required |
+| `price` | `Number` | required |
+| `bathrooms` | `Number` | required |
+| `address` | `String` | required |
+| `city` | `String` | required |
+| `state` | `String` | required |
+| `building_name` | `String` | optional |
+| `image_id` | `Number` | optional |
 
 **Example**  
 GET `/api/listings?bedrooms=1&price=2000&limit=1`
